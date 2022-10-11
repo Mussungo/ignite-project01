@@ -1,0 +1,19 @@
+##date-fns - work with dateTime
+
+#A key no React
+
+3 momentos em que o componente é rendizado no react
+
+  1 - Quando o estado altera
+  2 - Quando a propriedade altera
+  3 - Quando um componente pai renderiza novamente
+
+  ------------
+  #Porquê usar key nos componentes
+
+  Para evitar que ele fica sempre renderizando
+  nós adicionamos a key, se em algum momento o react
+  precisar renderizar um componente ele não vai
+  renderizar tudo, vai comparar a key dos que 
+  estavam em tela e os que pretendem
+  fazendo uma filtragem do que precisa renderizar.
